@@ -1,0 +1,46 @@
+.menu_block {
+  display: flex;
+  flex-direction: column;
+  margin: 67px 0 0 0;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 11px;
+}
+
+.categity {
+  display: flex;
+  align-items: center;
+  margin: 0 28px 10px 28px;
+  /* border: 1px solid red; */
+}
+
+.categity p {
+  margin-left: 14px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #9197b3;
+}
+
+.arrow {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-left: 226px;
+}
+
+.selected {
+  background: #5932ea;
+  border-radius: 8px;
+  color: white
+}
+
+.selected p {
+  color:#FFFFFF;
+}

@@ -1,0 +1,42 @@
+.user {
+  display: flex;
+  align-items: center;
+  margin: 597px 0 76px 0;
+  height: 42px;
+}
+
+.user img {
+  width: 42px;
+  height: 42px;
+  margin-left: 28px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  height: 100%;
+}
+
+.info b {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.info p {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  color: #757575;
+}
