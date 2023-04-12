@@ -1,0 +1,49 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body button{
+    border: none;
+    background-color: transparent;
+}
+
+.body button img{
+    width: 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo b {
+    font-size: 20px;
+    padding-left: 5px;
+    font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+}
+
+.logo p {
+    margin: 0;
+    padding-top: 7px;
+    padding-left: 5px;
+    font-size: 10px;
+    color: #838383;
+    font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.user_info {
+    display: flex;
+    flex-direction: column;
+}

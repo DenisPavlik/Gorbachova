@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import style from "./Customers.module.css";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Users from "./Users/Users";
 
-const Customers = () => {
-  const [query, setQuery] = useState("")
+const Customers = (props) => {
+  
   return (
     <div className={style.body}>
-      <Header setQuery={setQuery} />
-      <Users query={query} />
+      <Header setQuery={props.setQuery} />
+      <Users query={props.query} />
       <Footer />
     </div>
   );
