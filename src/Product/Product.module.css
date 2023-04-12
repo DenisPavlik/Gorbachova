@@ -1,0 +1,15 @@
+.body {
+  width: 1134px;
+  height: 100%;
+}
+
+.body h1 {
+  margin: 41px 0 0 71px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+

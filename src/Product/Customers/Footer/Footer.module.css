@@ -1,0 +1,79 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 40px 40px 38px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.body p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #b5b7c0;
+  margin: 0;
+  /* padding-right: 376px; */
+  min-width: 243px;
+}
+
+.paginator {
+  display: flex;
+  align-items: center;
+}
+
+.paginatorItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 9px;
+  margin-left: 12px;
+  gap: 10px;
+  background: #f5f5f5;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 100%;
+  width: 26px;
+  height: 24px;
+  color: #404b52;
+  box-sizing: border-box;
+}
+
+.threeDots {
+  margin-left: 12px;
+  min-width: 9px;
+  word-wrap: break-word;
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.selected {
+  background: #5932ea;
+  border: 1px solid #5932ea;
+  color: #ffffff;
+}
+
+.one {
+  padding: 6px 10px;
+}
+
+.two {
+  padding: 6px 9px;
+}
+
+.three {
+  padding: 6px 8px;
+}
+
+.four {
+  padding: 6px 9px;
+}
+
+.forty {
+  padding: 6px 5px;
+}
