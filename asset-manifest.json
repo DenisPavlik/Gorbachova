@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gorbachova/static/css/main.f7ebbac1.css",
+    "main.js": "/gorbachova/static/js/main.fb80864c.js",
+    "index.html": "/gorbachova/index.html",
+    "main.f7ebbac1.css.map": "/gorbachova/static/css/main.f7ebbac1.css.map",
+    "main.fb80864c.js.map": "/gorbachova/static/js/main.fb80864c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7ebbac1.css",
+    "static/js/main.fb80864c.js"
+  ]
+}
